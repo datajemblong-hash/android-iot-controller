@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Mengizinkan cleartext HTTP ke rentang IP lokal umum -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.0.1</domain>
+        <domain includeSubdomains="true">192.168.1.1</domain>
+        <domain includeSubdomains="true">localhost</domain>
+    </domain-config>
+    <!-- Aturan umum sebagai cadangan agar IP dinamis lokal lain tidak terblokir -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

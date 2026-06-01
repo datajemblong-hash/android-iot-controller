@@ -1,0 +1,33 @@
+# Abaikan folder skill agar AI tidak memakan token membaca panduan statis secara konstan
+# AI hanya akan membaca skill jika Anda memanggilnya secara eksplisit (misal pakai @ di Cursor)
+/skills/
+README.md
+TUTORIAL.md
+status.md
+agents-template.md
+
+# Abaikan file grafis & aset besar (Penyebab utama kuota cepat habis)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+*.zip
+*.cdr
+*.psd
+
+# Abaikan file temporary dan auto-backup
+*.BAK
+*.tmp
+*.log
+
+# Abaikan file konfigurasi lokal editor yang sering berubah otomatis
+/.vscode/
+/.idea/
+
+# Abaikan folder hasil build/kompilasi & pihak ketiga
+/node_modules/
+/build/
+/.pio/
+/dist/

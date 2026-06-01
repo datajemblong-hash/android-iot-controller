@@ -1,0 +1,28 @@
+# Built artifacts
+**/build
+*.apk
+*.aar
+*.ap_
+*.der
+
+# Android Studio local files
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/modules.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/caches
+/captures
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystore files (CRITICAL: Do not commit release keys)
+*.jks
+*.keystore
+*.p12
+
+# Crashlytics/Firebase generated files
+active_build_variant.txt
